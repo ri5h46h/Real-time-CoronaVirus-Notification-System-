@@ -30,6 +30,6 @@ if __name__ == "__main__":
     Total_cases = int(active_cases) + int(Cured_Discharged) + int(Deaths)
     # print(Total_cases)
 
-    notify_title = "COVID-19 Status (Source : https://www.MoHFW.gov.in/"
+    notify_title = "COVID-19 Status (Source : https://www.MoHFW.gov.in/)"
     notify_text = f"Confirmed : {Total_cases}\nActive Cases : {active_cases}\nCured/Discharged : {Cured_Discharged}\nDeaths : {Deaths}" # Used a f string here
     notify_me(notify_title, notify_text) #Calling the function...
